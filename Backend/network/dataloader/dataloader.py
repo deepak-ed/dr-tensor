@@ -5,7 +5,6 @@ https://github.com/aleju/imgaug
 It store only one image in memory because it load image and label each time when it is accessed.
 Images are resized and normalized as well.
 
-@author: Muhammad Abdullah
 """
 import csv
 import json
