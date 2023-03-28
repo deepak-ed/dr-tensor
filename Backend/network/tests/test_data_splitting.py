@@ -4,7 +4,6 @@
 @TODO
 Test if working. Can be outdated.
 
-@author: Muhammad Abdullah
 """
 import os
 import unittest
@@ -18,7 +17,7 @@ from Backend.network.utils.data_splitting import k_fold_cross_validation, random
 
 class DataSplitting(unittest.TestCase):
     def setUp(self):
-        self.ROOT_DIR = "/proj/ciptmp/ic33axaq/IIML/data/"
+        self.ROOT_DIR = "/IIML/data/"
         self.dataset_path = "train_img_labels_paths.csv"
         self.dataset = Dataset(os.path.join(self.ROOT_DIR, self.dataset_path))
         self.patient_ids = list(map(lambda x: x["patient_id"], self.dataset.data))
