@@ -1,7 +1,6 @@
 """
 @description: It contains UNet class which is pytorch lightning based wrapper.
 For docs related to pytorch lightning, see https://pytorch-lightning.readthedocs.io/en/stable/
-@author: Muhammad Abdullah
 """
 import copy
 
