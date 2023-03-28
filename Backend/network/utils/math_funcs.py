@@ -1,6 +1,5 @@
 """
 @description: Some helper functions to create gaussian heatmaps, computing Hu Moments etc
-@author: Muhammad Abdullah
 """
 import numpy as np
 from matplotlib import pyplot as plt
