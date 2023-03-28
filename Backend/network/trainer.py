@@ -19,7 +19,7 @@ from Backend.network.network import UNet
 from Backend.network.utils.data_splitting import k_fold_cross_validation
 from Backend.network.unet import UNet as myunet
 
-ROOT_DIR = "/proj/ciptmp/ic33axaq/IIML/"
+ROOT_DIR = "/IIML/"
 train_data_path = "train.csv"
 val_data_path = "val.csv"
 test_data_path = "test.csv"
