@@ -5,7 +5,6 @@ It assumes images as PNG files and labels as JSON files
 @TODO 
 change it to make it independent from image type i-e image can be jpeg, png, bmp etc
 
-@author: Muhammad Abdullah
 """
 import csv
 import glob
@@ -15,7 +14,7 @@ import shutil
 
 import numpy as np
 
-ROOT_DIR = "/proj/ciptmp/ic33axaq/IIML/data/"
+ROOT_DIR = "/IIML/data/"
 dataset_path = "projiiml-wise22/data"
 DATASET_PATH = os.path.join(ROOT_DIR, dataset_path)
 
