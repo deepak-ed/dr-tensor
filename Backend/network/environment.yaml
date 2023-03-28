@@ -1,4 +1,4 @@
-name: /proj/ciptmp/ic33axaq/IIML
+name: /proj/ciptmp/eq27ifuw/IIML
 channels:
   - conda-forge
   - defaults
@@ -121,4 +121,4 @@ dependencies:
     - urllib3==1.26.12
     - werkzeug==2.2.2
     - yarl==1.8.1
-prefix: /proj/ciptmp/ic33axaq/IIML
+prefix: /proj/ciptmp/eq27ifuw/IIML
