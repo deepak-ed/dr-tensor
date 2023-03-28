@@ -1,6 +1,5 @@
 """
 @description: Some datasplitting related utility functions
-@author: Muhammad Abdullah
 """
 import numpy as np
 import torch
